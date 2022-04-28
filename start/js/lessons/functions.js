@@ -29,21 +29,20 @@ function calc(a, b, sign) {
     switch (sign) {
         case '+':
             return a + b;
-            console.log("unreachable code");
         case '-':
             return a - b;
         case '/':
             return a / b;
         case '*':
             return a * b;
-            default:
-                console.log("unknown function!");
-                return;
+        default:
+            console.log("unknown function!");
+            return;
     }
 
 }
 
-console.log(calc(2,3,"-"));
+console.log(calc(2, 3, "-"));
 
 //=========================
 let name = "John";
@@ -72,3 +71,16 @@ let work = makeWorker();
 
 // call it
 work(); // Pete
+
+
+
+// function expression
+
+//let s = logger(5); // you can't do this!
+
+let logger = function (a) {
+    return a;
+};
+
+let c = logger(3);
+console.log(c);
