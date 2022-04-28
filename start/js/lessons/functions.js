@@ -84,3 +84,24 @@ let logger = function (a) {
 
 let c = logger(3);
 console.log(c);
+
+//arrow functions
+
+// console.log(calc2(8,3,"/")); you can't do this!
+let calc2 = (a,b,sign) => {
+    switch (sign) {
+        case '+':
+            return a + b;
+        case '-':
+            return a - b;
+        case '/':
+            return a / b;
+        case '*':
+            return a * b;
+        default:
+            console.log("unknown function!");
+            return;
+    }
+};
+
+console.log(calc2(5,3,"/"));
