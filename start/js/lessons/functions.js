@@ -105,3 +105,6 @@ let calc2 = (a,b,sign) => {
 };
 
 console.log(calc2(5,3,"/"));
+
+let small = () => 2+3;
+console.log(small());
