@@ -41,7 +41,7 @@ function rememberMyMovie() {
     let lastSeenTitle;
     do {
         lastSeenTitle = prompt(`Last seen movie`, "");
-    } while (!lastSeenTitle || lastSeenTitle.length > 50);
+    } while (!lastSeenTitle || lastSeenTitle.length > 50 || lastSeenTitle.trim().length===0);
 
     let lastSeenRate;
     do {
