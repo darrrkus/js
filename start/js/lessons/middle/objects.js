@@ -13,7 +13,6 @@ const options = {
     makeTest: function(){
         console.log("I'm doing test");
     }
-
 };
 
 // console.log(options);
