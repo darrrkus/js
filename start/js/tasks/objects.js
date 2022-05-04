@@ -30,7 +30,7 @@ function showProgrammingLangs(plan) {
     let str = '';
     const {programmingLangs} = plan.skills;
     for (let key in programmingLangs) {
-        str += `Язык ${key} изучен на ${programmingLangs[key]}\n`
+        str += `Язык ${key} изучен на ${programmingLangs[key]}\n`;
     }
 
     return str;
