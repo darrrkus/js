@@ -23,3 +23,7 @@ console.log(someFruit.substr(0,10)); //Some fruit
 
 // split returns array of strings
 console.log(someFruit.split(' '));
+
+console.log(typeof "Hllo");
+console.log(typeof "Hllo".trim());
+console.log(typeof new String("Hllo"));
