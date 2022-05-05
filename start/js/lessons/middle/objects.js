@@ -34,4 +34,21 @@ for (let key in options){
 }
 */
 // console.log(Object.keys(options).length);
-options.makeTest();
+// options.makeTest();
+
+
+console.dir([1,2,3]);
+
+const soldier = {
+    health: 400,
+    armour: 100
+};
+
+const john = {
+    health: 100
+};
+
+// __proto__ is deprecated
+john.__proto__ = soldier;
+console.log(john); //{ health: 100 }
+console.log(john.armour);//100;
